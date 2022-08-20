@@ -4,10 +4,10 @@ This is a backend system where employee and clients and a mapping system between
 
 Things that this backend offers: 
 
-1 Employee CRUD
-2 Client CRUD
-3 Employee Timesheet
-4 Mapping between Employee and Client
+1. Employee CRUD
+2. Client CRUD
+3. Employee Timesheet
+4. Mapping between Employee and Client
 
 ## Technologies used
 
