@@ -29,7 +29,7 @@ Lear more about Sequelize from docs:
 
 Employee crud means basic create, read, update and delete process.
 
-**API:** `` javascript `/api/employees/`  ``
+**API:** `/api/employees/`
 
 ### Routes of Employee CRUD:
 
@@ -66,7 +66,7 @@ router.get("/timesheet/:id", employees.timesheet);
 
 Same as employee crud, all operations of crud for client.
 
-**API:** `javascript /api/clients/ `
+**API:** `/api/clients/`
 
 ### Routes of Client CRUD:
 
@@ -103,7 +103,7 @@ router.delete("/", clients.deleteAll);
 
 Employee timesheet is a record of employee working hours for each day of week. Employee can edit their working hours of any day.
 
-**API:** `javascript /api/timesheet/ `
+**API:** `/api/timesheet/`
 
 ### Routes of Timesheet
 
@@ -134,7 +134,7 @@ router.delete("/:id", Timesheet.delete);
 
 Here mapping refers to the association b/w the employee and client. Each employee can be associated with any no. of clients and each client can be under more than one employee.
 
-**API:** `javascript /api/map/ `
+**API:** `/api/map/`
 
 Think of it as:
 
